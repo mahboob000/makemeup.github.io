@@ -70909,13 +70909,13 @@ break}if(B.b.cq(m.dx.a.a).length===0){m.AX(a5,"Email  is required")
 s=1
 break}if(B.b.cq(m.dy.a.a).length===0){m.AX(a5,"Phone Number is required")
 s=1
-break}s=3
+break}m.go=A.fs(!0)
+m.cb(0)
+s=3
 return A.G(m.tV(),$async$lN)
 case 3:if(a7){new A.d4().j9(a5,"Acoount","UserName already takken","Ok",new A.UQ(),"",new A.UR())
 s=1
 break}l=null
-m.go=A.fs(!0)
-m.cb(0)
 p=5
 j=A.anG(m.db.a.a,m.fy.a.a,m.dx.a.a,null,null,null)
 j.cU(0,"accountType","provider")
